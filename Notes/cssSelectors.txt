@@ -1,0 +1,36 @@
+html[attribute = value]
+if there is a class name with a single value
+
+if there is a class name with compounded values
+
+a[class = signin]
+a.signin
+.signin
+
+html[attribute = value]
+htmltag.value
+.value
+
+html.value1.value2
+a.moneyicon.relative
+.moneyicon.relative
+
+
+what if you have an id
+html[attribute = value]
+input[id = login1]
+
+html#value
+input#login1
+#login1
+
+in case of traversing between siblings just use a +
+in case of traversing to a descendant  just use a (space) 
+
+div#div_login_error + div > div:nth-child(1) > div:nth-child(1) + div > input#login1:nth-child(1)
+div#div_login_error + div > div:nth-of-type(1) > div:nth-of-type(1) + div > input#login1:nth-of-type(1)
+nth-child
+nth-of-type
+
+div#div_login_error + div input#login1
+div.floatL.leftwidth input#login1

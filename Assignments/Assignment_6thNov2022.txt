@@ -1,0 +1,29 @@
+Create 5 Classes
+Each class should have 5 static methods and 5 non static methods
+Each class should have 2 different objects
+Call the static methods directly and using classname
+Call the non-static methods using both the object references
+
+Create 2 Classes - WebDriverCode
+Rediff Code full flow using cssSelectors
+CreateAccount for automationpractice.com/indexphp using cssSelectors
+in these 2 classes use SoftAssert and WebDriverWait wherever applicable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

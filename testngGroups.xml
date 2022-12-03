@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <groups>
+  
+  <!--   <define name = "TwilightTestCasesGroup">
+  
+  
+  </define> -->
+  
+    <run>
+    
+    <include name = "CompleteClassLevelTestGrouping"></include>
+    <exclude name = "windows.*"></exclude>
+     <exclude name = "linux.*"></exclude>
+     
+<!--    <include name = "windows.*"></include>
+    <include name = "linux.*"></include>
+    
+    <include name = "TwilightTestCasesGroup" ></include>
+        <include name = "sanity" ></include>
+        <exclude name = "smoke" ></exclude>
+       <include name = "regression"></include> -->
+    </run>
+  
+  </groups>
+    <classes>
+      <class name="groups_in_testNG.Groups_Concepts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

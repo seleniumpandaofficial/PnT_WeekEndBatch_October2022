@@ -1,0 +1,10 @@
+//try catch block
+//final vs finally vs finalize
+//StringBuilder and StringBuffer - the difference between them
+//Exceptions in Java
+//for each loop (advanced for loop)
+//What are regular expressions in Java ?
+//String - toString()
+//Thread concepts
+//Please Google "String interview questions in Java"
+//Please Google "Array interview questions in Java"

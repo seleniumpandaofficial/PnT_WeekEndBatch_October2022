@@ -1,0 +1,37 @@
+https://repo.maven.apache.org/maven2/archetype-catalog.xml
+Please open cmd and type mvn and make sure you receive BUILD FAILURE and in case you see mvn is not recognized as an internal and external command please download, install and configure maven in your system
+
+Step1 : Eclipse > Window > Preferences > Maven > Archetypes > Click on Add Remote Catalog.. button 
+Step2 : Catalog File : https://repo.maven.apache.org/maven2/archetype-catalog.xml
+        Description  : Remote Catalog
+
+Step3 : Apply and Close
+
+Step4 : Create a New Maven Project
+Step5 : Please do not select the checkbox 'Create a simple project(Skip archetype selection)
+Step6 : From the Catalog dropdown select 'Remote Catalog'
+Step7 : Filter : type maven-archetype-quickstart and wait patiently (some systems might be slow) and select the 1.4 Version
+
+Step8 : give the Group id (com.maven.archetype) and artifact id (MAVEN_REMOTE_CATALOG)
+
+Step9: Open the pom.xml file from Eclipse
+
+Step10: Copy the notepad forwarded to you and paste it from Row number 15 to Row number 28 in your pom.xml file
+
+Step11: Save the pom.xml file and it will throw an error at 
+
+<dependency>
+<groupId>com.sun</groupId>
+<artifactId>tools</artifactId>
+<version>1.7</version>
+<scope>system</scope>
+<systemPath>C:\Program Files\Java\jdk1.8.0_333\lib\tools.jar</systemPath> - make sure you replace this C:\Program Files\Java\jdk1.8.0_333\lib
+</dependency>
+
+Step 12: Save the pom.xml file again. 
+
+Step 13 : Update the maven project
+
+
+
+

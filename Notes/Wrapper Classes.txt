@@ -1,0 +1,28 @@
+Wrapper Classes in Java
+---------------------------
+
+> What are Wrapper Classes ?
+  These are pre-defined classes in java which can contain primitive datatype.
+  Wrapper classes are always final
+> Types of Wrapper Classes
+  Boolean and Character wrapper classes - Parent class is Object
+  Rest 6 - Parent class is Number
+
+> Different Examples - Parsing
+
+> Boxing, Autoboxing, Unboxing, AutoUnboxing
+
+> Why we need Wrapper Classes ?
+  When we use Collection framework
+  Some libraries in java cannot deal with primitive data types rather they only deal with objects.
+-----------------------------------------------------------------
+primitive data types  -      Wrapper Classes
+
+int                 -        Integer
+char                -        Character
+double              -        Double
+float               -        Float
+long                -        Long
+boolean             -        Boolean
+short               -        Short
+byte                -        Byte

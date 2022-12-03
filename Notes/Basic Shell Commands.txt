@@ -1,0 +1,18 @@
+
+pwd
+ls
+ls -al
+ls -lart
+
+mkdir directoryname [this will create the folder]
+rmdir directoryname [this will delete the folder]
+
+cd .. [this will move you one directory back]
+
+touch filenamewithextension [this will create the file]
+rm filenamewithextension [this will delete the file]
+
+explorer .  [opens the present working directory]
+start .      [opens the present working directory]
+
+open . [this is only for mac users]

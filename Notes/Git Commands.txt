@@ -1,0 +1,78 @@
+Git from beginning: -
+
+rm -rf .git [this will delete the .git hidden folder]
+git add -A  [this will add everything]
+git add --a [this will add everything]
+git commit -m "firstcommit" [this will make the files committed]
+git remote add origin git@github.com:seleniumpandaofficial/Repo1.git  [only when u are pushing the code 1st time]
+git push -u origin master  [this will show your code in the github repo]
+
+only to add the modified changes, we will use the command
+git add .
+
+Skipping the staging area for a modified file
+git commit -a -m nameofthefilewhichyouwanttoskipstaging
+Note: Always remember only a modified file can be made to skip staging. An untracked file cannot skip staging
+
+***************Collaboration in Git*******************************
+the owner will invite the collaborators
+Repo > Settings > Collaborators > Add people
+
+***************************************************************************
+
+
+For the first time please do git clone
+
+git pull https://github.com/seleniumpandaofficial/Repo1
+
+***************Git logs*********************************************************
+
+git log
+git log --show-signature
+git log -p
+git log -p -3
+git log --stat
+
+--------------------------------how to ignore files in git----------------------------
+Step1 : First you have to create a file known as .gitignore
+Step2: Create few more files
+Step3: Open the .gitignore via Notepad
+Step4: Add the fullfilenamewith extension inside the .gitignore file
+Step5: git status
+Step5: In case you want to ignore all files of a particular extension e.g.,  .txt then type *.txt in .gitignore file
+Step6: git status
+******************************************************************************************************
+
+------------------------Branching in Git----------------------------------------------------------
+
+git branch  [this will list all the branches]
+git branch branchname  [this one will create the branch]
+git checkout branchname [this will take control on this branch]
+git checkout -b branchname [this command will create the branch as well as take control]
+
+do the necessary changes in the code
+then you commit
+then you push the code using command git push -u origin branchname
+git checkout master
+git merge branchname
+git push -u origin master
+
+git branch -d branchname [this will delete the branch from staging area]
+git push origin --delete branchname [this will delete from the github repo also]
+------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

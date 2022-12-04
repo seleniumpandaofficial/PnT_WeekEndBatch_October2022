@@ -1,0 +1,62 @@
+JENKINS: -
+
+1. Download jenkins.war file checking wrt to the Java 8
+2. Keep that jenkins.war file in a folder
+3. Open cmd
+4. cd pathwherethe war file is
+5. java- jar jenkins.war
+6. JENKINS is up and running
+
+Note: When u do this for the first time you will get a password which you need to copy paste somewhere
+
+7. open a browser and type localhost:8080
+8. Enter the long password[this is for the first time]
+9. Second time and onwards it will ask u for regular username and password
+10. Click on install suggested plugins. Wait for sometime.
+11. Then it will take you the welcome to jenkins dashboard page
+---------------------------------------------------------------------------------------
+There are certain operations which you need to do: -
+1. Click on Manage Jenkins
+2. Scroll down a bit and click on Manage Plugins
+3. Select 'Available' tab and type Maven
+4. Select these plugins. Just click on the checkbox
+
+Maven Integration
+Pipeline Maven Integration
+Maven Release Plugin
+Maven Invoker
+Maven Repository Scheduled Cleanup
+Repository connector
+Maven info
+Maven repository server
+
+Note: In case you want to add more plugins, depends if you want to select, you can
+
+5. After you have done your selection click on the button install without restart
+6. Wait for sometime. There are chances u might get an error
+7. If all is good they will be successfully downloaded
+8. Click on Dashboard (which you will see on the top left)
+9. Again Click on Manage Jenkins
+10. Click on Global Tool Configuration
+11. Scroll down till JDK. click on JDK installations button
+12. Uncheck that checkbox which says install automatically[unless you do this JAVA_HOME will not show up]
+13. Give the jdk path C:\Program Files\Java\jdk1.8.0_341 in JAVA_HOME textbox and give any name like MyJDK in the Name
+    section
+14. Please do not click on Add JDK button rather click on Apply and then Save
+15. Under the GIT section in 'Path to Git executable ?' just add the path of the git.exe file
+   which will be typically C:\Program Files\Git\bin\git.exe and keep the name Default
+16. Do not click on Add Git button. Rather click on Apply and then click on Save
+
+-------------------How to run a Maven Projectl linked to github using JENKINS--------------------------
+
+17. Click on New item
+18. Give the name of the project and select Maven Project
+19. Source Code Management - Select the radio button Git and pass the github repo and click on Apply and save
+20. Go to Build and pom.xml in the 'Root POM?' section and pass the command clean install in 'Goals and Options?'
+21. Apply and Save
+22. Run the Build
+23. Open the Output console and check about the execution result
+
+
+
+

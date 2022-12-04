@@ -1,0 +1,32 @@
+For people those who cannot create a Maven Project
+Go to C:\Users\insideyourUsername\
+Select 3 folders
+.eclipse
+.p2
+eclipse_workspace
+
+Delete the above
+
+then go to google, type download eclipse
+
+Step 1: The zip file of maven should be kept in C:
+Step 2: Delete the user variable MAVEN_HOME
+Step 3: In System variables create 2 variables as shown below
+
+M2_HOME
+C:\apache-maven-3.8.6\
+
+MAVEN_HOME
+C:\apache-maven-3.8.6\
+
+Click on the Path variable. Click on Edit
+
+First - Delete the previous maven path which you had saved in your Automation folder
+
+then add the below three paths
+
+C:\apache-maven-3.8.6\bin\
+%M2_HOME%\bin
+%MAVEN_HOME%
+
+The click OK > OK > OK

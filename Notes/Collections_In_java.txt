@@ -1,0 +1,43 @@
+https://www.javatpoint.com/collections-in-java
+please study from this link
+
+Data Structures: -
+Way in which you can store your data efficiently[time and space complexities]
+
+Types of Data Structures: -
+1. Primitive DS (boolean, int, char, short, byte, float, long, double)
+2. Non Primtive DS
+  2.1 Linear DS
+      String, Array, List, Set, Queue, ArrayList, LinkedList, HS, etc
+  2.2 Non-Linear DS
+       Graph, Trees
+------------------------------------------------------------------------------
+1. Arrays can store both primitive and non-primitive(objects) type of data
+   Collectio frameworks can only store non-primtive
+2. Arrays can store homogeneous data
+-----------------------------------------Collection Framework----------------------------
+Collection Framework (API)
+Collection - It is the single entity or object which can store multiple data
+Framework - it represnts the library(it has pre-defined interfaces, abstract classes, classes, methods)
+
+2 main parts
+java.util.Collection
+java.util.Map
+
+Collection - it is an interface. It is the root interface present in java.util.package
+Collections - It is a utility class. This contains only static methods
+
+
+Please Study at least these: -
+
+ArrayList
+LinkedList
+HashMap
+Set
+
+
+
+
+
+
+
